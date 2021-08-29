@@ -2,6 +2,8 @@
 @use "mixins" as *;
 .navbar-inverse {
   background-color: $color-deep-dark;
+  margin-bottom: 0;
+  border-color: transparent;
 
   .navbar-nav {
     > li > a {
